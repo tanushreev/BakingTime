@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+
+    <!--Error Messages-->
+    <string name="network_unavailable_message">Network not available!</string>
+    <string name="data_not_available">Data not available</string>
+
+    <!--App Widget-->
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">Ingredients</string>
+
+    <!--Content Descriptions-->
+    <string name="content_description_widget_next_button">Next Recipe Button</string>
+    <string name="content_description_step_video">Step Video Player</string>
+    <string name="content_description_step_image">Step Image</string>
+    <string name="content_description_step_description">Step Description</string>
+    <string name="content_description_recipe_image">Recipe Image</string>
+    <string name="content_description_recipe_name">Recipe Name</string>
+
+    <!--Steps Fragment-->
+    <string name="fragment_ingredients_label">INGREDIENTS</string>
+    <string name="fragment_steps_label">STEPS</string>
+
+</resources>

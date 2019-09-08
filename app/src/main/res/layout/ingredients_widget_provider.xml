@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/screenBackgroundGrey"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_navigate_next"
+            android:id="@+id/ibWidgetNext"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_description_widget_next_button"/>
+
+        <TextView
+            android:id="@+id/tvWidgetRecipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@id/ibWidgetNext"
+            android:layout_toStartOf="@id/ibWidgetNext"
+            tools:text="There is a very very very very very very big name."/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:text="@string/appwidget_text"
+        android:textSize="17sp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvWidgetIngredients"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
+
+    <!--android:layout_toRightOf="@id/tvWidgetRecipeName"-->
+    <!--android:layout_toEndOf="@id/tvWidgetRecipeName"-->

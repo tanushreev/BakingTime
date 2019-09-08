@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tanushree.bakingtime.controller.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rv_recipes"
+    android:background="@color/screenBackgroundGrey"
+    android:paddingLeft="8dp"
+    android:paddingStart="8dp"
+    android:paddingTop="8dp"
+    />

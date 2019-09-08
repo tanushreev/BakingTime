@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context="com.example.tanushree.bakingtime.controller.MainActivity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/recipes_list_color_selector"
+              android:padding="5dp"
+              android:layout_marginBottom="8dp"
+              android:layout_marginRight="8dp"
+              android:layout_marginEnd="8dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:id="@+id/ivRecipeImage"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/content_description_recipe_image"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRecipeName"
+        android:contentDescription="@string/content_description_recipe_name"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:text="Recipe Name"
+        android:layout_marginTop="8dp"
+        />
+
+</LinearLayout>

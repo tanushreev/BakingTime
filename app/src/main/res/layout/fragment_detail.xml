@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context="com.example.tanushree.bakingtime.controller.RecipeActivity"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="8dp"
+              android:id="@+id/linearLayout"
+              android:background="@color/screenBackgroundGrey">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/frameLayout">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pvStepVideo"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/content_description_step_video"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivStepImage"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible"
+            android:contentDescription="@string/content_description_step_image"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/screenBackgroundGrey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Step Description."
+        android:id="@+id/tvStepDescription"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:contentDescription="@string/content_description_step_description"/>
+
+    </FrameLayout>
+
+</LinearLayout>

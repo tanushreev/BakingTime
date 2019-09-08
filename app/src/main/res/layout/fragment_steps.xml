@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/screenBackgroundGrey"
+              android:paddingTop="8dp"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_ingredients_label"
+        android:textColor="@color/textColorBrown"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvIngredients"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_steps_label"
+        android:textColor="@color/textColorBrown"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvSteps"
+        android:background="@color/screenBackgroundGrey"
+        android:overScrollMode="never"/>
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
