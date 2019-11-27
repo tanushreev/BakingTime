@@ -32,4 +32,4 @@ Screen 3
 
 App Widget
 
-<img src="app/src/main/res/drawable/ingredients_appwidget_preview.jpg" width="150" height="200">
+<img src="app/src/main/res/drawable/ingredients_appwidget_preview.jpg" width="155" height="175">
